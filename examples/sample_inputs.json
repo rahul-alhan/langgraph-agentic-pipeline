@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ex-001",
+    "content": "A short story about a detective in 1920s Berlin investigating a missing painting.",
+    "expected_route": "auto"
+  },
+  {
+    "id": "ex-002",
+    "content": "Promotional copy that closely mimics a registered brand slogan.",
+    "expected_route": "human_escalate"
+  },
+  {
+    "id": "ex-003",
+    "content": "Direct copy of a copyrighted song's lyrics from 2018.",
+    "expected_route": "auto_reject"
+  }
+]
