@@ -2,7 +2,7 @@
 
 Stateful multi-agent workflow built on **LangGraph** for content moderation and copyright risk assessment. Demonstrates: tool use, conditional routing, confidence-based guardrails, and human-in-the-loop escalation.
 
-> Mirrors the agent orchestration graph used in production at Algoworks for a creator-consumer platform.
+> Mirrors an agent orchestration graph used in a prior production role for a creator-consumer platform.
 
 ---
 
