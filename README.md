@@ -44,6 +44,8 @@ Conditional edges:
 
 ```bash
 pip install -r requirements.txt
+# Or `pip install -r requirements-dev.txt` to also get pytest for the suite.
+
 export OPENAI_API_KEY=sk-...
 
 # Run a single moderation request
@@ -52,6 +54,19 @@ python -m agent.run --content "Sample creator submission text..."
 # Visualize the graph
 python -m agent.visualize > graph.mmd
 ```
+
+---
+
+## Running Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+The smoke test uses the offline analyzer fallback (no `OPENAI_API_KEY`
+required) — it exercises the full graph wiring, guardrail routing, and
+the audit log.
 
 ---
 
